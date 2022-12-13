@@ -1,6 +1,10 @@
 public class Flujo {
 	public static void main(String[] args) {
-		metodo1();
+		try {
+			metodo1();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		System.out.println("Fin de main");
 	}
 	
