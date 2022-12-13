@@ -1,6 +1,8 @@
-public class CuentaCorriente_9 extends CuentaA {
-	
-	public CuentaCorriente_9(int agencia, int numero) {
+package bytebank;
+
+public class CuentaCorriente extends Cuenta {
+
+	public CuentaCorriente( int agencia, int numero) {
 		super(agencia, numero);
 	}
 	
@@ -11,11 +13,9 @@ public class CuentaCorriente_9 extends CuentaA {
 	}
 
 	@Override
-	public void depositar(double valor) {
+	public void deposita(double valor) {
 		// TODO Auto-generated method stub
 		
 	}
-	
-	
 	
 }

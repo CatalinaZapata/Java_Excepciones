@@ -1,8 +1,11 @@
-public class TestFuncionario_2 {
+package bytebank;
+
+public class TestFuncionario {
+
 	public static void main(String[] args) {
-		Funcionario_1 diego = new Contador_8();
-		diego.setNombre("Diego");
-		diego.setDocumento("101");
+		Funcionario diego = new Contador();
+		diego.setDocumento("Diego");
+		diego.setDocumento("444556665");
 		diego.setSalario(2000);
 		diego.setTipo(0);
 		

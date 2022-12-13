@@ -1,9 +1,11 @@
-public class Administrador_12 extends Funcionario_1 implements Autenticable_14 {
-	
-	private AutenticacionUtil_15 util;
-	
-	public Administrador_12() {
-		this.util = new AutenticacionUtil_15();
+package bytebank;
+
+public class Administrador extends Funcionario implements Autenticable {
+
+	private AutenticacionUtil util;
+
+	public Administrador() {
+		this.util = new AutenticacionUtil();
 	}
 	
 	@Override

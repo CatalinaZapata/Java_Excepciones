@@ -1,4 +1,7 @@
-public class AutenticacionUtil_15 {
+package bytebank;
+
+public class AutenticacionUtil {
+
 	private String clave;
 	
 	public boolean iniciarSesion(String clave) {
@@ -8,7 +11,5 @@ public class AutenticacionUtil_15 {
 	public void setClave(String clave) {
 		this.clave = clave;
 	}
-	
-	
 	
 }
